@@ -3,7 +3,7 @@ import time
 
 class SessionHelper:
     def __init__(self,app):
-        self.app=app
+        self.app = app
 
     def login(self, username, password):
         wb = self.app.wb
@@ -36,7 +36,7 @@ class SessionHelper:
                 return
             else:
                 self.logout()
-        self.login(username,password)
+        self.login(username, password)
 
     def is_logget_in_as(self, username):
         wb = self.app.wb
