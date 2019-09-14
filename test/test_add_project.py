@@ -26,7 +26,7 @@ def test_add_new_project(app, db):
 
 
 def clean(project):
-    return Project(id=project.id, name=project.name.strip(), description=project.description.strip())
+    return Project(id=int(project.id), name=project.name.strip(), description=project.description.strip())
 
 
 

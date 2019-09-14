@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a919cf6-45f3-4db9-b6db-7c4e4117f4d0" name="Default Changelist" comment="Добавление/удаление проекта">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/__init__.py" afterDir="false" />
+    <list default="true" id="5a919cf6-45f3-4db9-b6db-7c4e4117f4d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtura/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtura/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtura/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtura/session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target.json" beforeDir="false" afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_add_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="272">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#24#57#0" expanded="true" />
               </folding>
@@ -37,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixtura/soap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="258">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -46,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_del_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="190">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -120,9 +112,9 @@
         <option value="$PROJECT_DIR$/target.json" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixtura/application.py" />
+        <option value="$PROJECT_DIR$/test/test_del_project.py" />
         <option value="$PROJECT_DIR$/test/test_add_project.py" />
         <option value="$PROJECT_DIR$/fixtura/soap.py" />
-        <option value="$PROJECT_DIR$/test/test_del_project.py" />
       </list>
     </option>
   </component>
@@ -219,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_del_project.py">
+  <component name="RunManager" selected="Python tests.pytest in test_add_project.py">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_training_mantiss" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_del_project.py" />
         <item itemvalue="Python tests.pytest in test_add_project.py" />
+        <item itemvalue="Python tests.pytest in test_del_project.py" />
         <item itemvalue="Python.soap" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python.conftest" />
@@ -379,28 +371,17 @@
       <option name="project" value="LOCAL" />
       <updated>1568395563073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Реализованы проверки списков проектов через SOAP">
+      <created>1568482303374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568482303374</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 11m 42s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 12m 14s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 12m 50s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 13m 36s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 14m 21s.xml">
-      <configuration name="pytest in test_add_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_del_project_py - 2019.09.14 at 20h 18m 45s.xml">
-      <configuration name="pytest in test_del_project.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_del_project_py - 2019.09.14 at 20h 22m 09s.xml">
       <configuration name="pytest in test_del_project.py" configurationId="tests" />
     </history-entry>
@@ -413,6 +394,24 @@
     <history-entry file="pytest_in_test_del_project_py - 2019.09.14 at 20h 29m 00s.xml">
       <configuration name="pytest in test_del_project.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_del_project_py - 2019.09.14 at 20h 30m 28s.xml">
+      <configuration name="pytest in test_del_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_del_project_py - 2019.09.14 at 20h 31m 00s.xml">
+      <configuration name="pytest in test_del_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 36m 57s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 38m 24s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 39m 06s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_project_py - 2019.09.14 at 20h 40m 32s.xml">
+      <configuration name="pytest in test_add_project.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6618005" visible="true" weight="0.25" />
@@ -469,7 +468,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавление/удаление проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление/удаление проекта" />
+    <MESSAGE value="Реализованы проверки списков проектов через SOAP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализованы проверки списков проектов через SOAP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,30 +718,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixtura/soap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="258">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_del_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="190">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="e#24#57#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_del_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_add_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="272">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#24#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
